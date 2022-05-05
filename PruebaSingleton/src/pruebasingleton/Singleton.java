@@ -9,7 +9,7 @@ package pruebasingleton;
  * @author aitgal
  */
 public class Singleton {
-    private static Sigleton instance = null;
+    private static Singleton instance = null;
     private Singleton() {
         //Este método existe solamente para evitar la instanciación.
     }
